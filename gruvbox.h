@@ -1,4 +1,7 @@
-struct colorscheme{
+// GRUVBOX ANSI HEADER
+// Written by Tyler Broegger
+
+struct gruvbox{
 	int bg;
 	int bg0;
 	int bg1;
@@ -34,7 +37,7 @@ struct colorscheme{
 	int softGray;
 };
 
-struct colorscheme gruvbox = {
+struct gruvbox gruvbox_dark = {
 	.bg = 235,
 	.bg0 = 235,
 	.bg1 = 237,
@@ -70,7 +73,7 @@ struct colorscheme gruvbox = {
 	.softGray = 245
 };
 
-struct colorscheme gruvbox_light = {
+struct gruvbox gruvbox_light = {
 	.bg = 229,
 	.bg0 = 229,
 	.bg1 = 223,
